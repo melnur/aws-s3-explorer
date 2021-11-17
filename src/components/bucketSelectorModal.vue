@@ -33,7 +33,7 @@
                     <div class="tab-pane active" id="cors">
                       <p>AWS S3 Service prevents the direct look up of buckets that a user or role has access to through the browser. Therefore they must be entered here.
                         If the list of available buckets frequently changes and needs to be dynamically rendered it can be loaded at runtime using a configurable bucket list.</p>
-                      <p>This functionality is currently under development, for additional information please create a <a href="https://github.com/Rhosys/aws-s3-explorer/issues" target="_blank">GitHub Issue</a>.</p>
+                      <p>This functionality is currently under development, for additional information please create a <a href="https://github.com/melnur/aws-s3-explorer/issues" target="_blank">GitHub Issue</a>.</p>
                     </div>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const state = reactive({
   suggestedCorsConfiguration: [{
     AllowedHeaders: ['*'],
     AllowedMethods: ['PUT', 'POST', 'DELETE', 'HEAD', 'GET'],
-    AllowedOrigins: ['https://rhosys.github.io', 'https://console.rhosys.ch'],
+    AllowedOrigins: ['https://melnur.github.io/aws-s3-explorer/', 'https://s3.dev.alpima.net'],
     ExposeHeaders: ['x-amz-server-side-encryption', 'x-amz-request-id', 'x-amz-id-2'],
     MaxAgeSeconds: 3000
   }],

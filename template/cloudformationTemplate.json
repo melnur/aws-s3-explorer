@@ -49,13 +49,13 @@
         "CallbackURLs": [
           "http://localhost:8080",
           "http://localhost:8080/",
-          "https://console.rhosys.ch",
-          "https://console.rhosys.ch/",
-          "https://rhosys.github.io/aws-s3-explorer",
-          "https://rhosys.github.io/aws-s3-explorer/"
+          "https://s3.dev.alpima.net",
+          "https://s3.dev.alpima.net/",
+          "https://melnur.github.io/aws-s3-explorer",
+          "https://melnur.github.io/aws-s3-explorer/"
         ],
         "ClientName": "S3 Explorer UI",
-        "DefaultRedirectURI": "https://console.rhosys.ch/",
+        "DefaultRedirectURI": "https://s3.dev.alpima.net/",
         "EnableTokenRevocation": true,
         "ExplicitAuthFlows": ["ALLOW_REFRESH_TOKEN_AUTH"],
         "GenerateSecret": false,
@@ -63,10 +63,10 @@
         "LogoutURLs": [
           "http://localhost:8080",
           "http://localhost:8080/",
-          "https://console.rhosys.ch",
-          "https://console.rhosys.ch/",
-          "https://rhosys.github.io/aws-s3-explorer",
-          "https://rhosys.github.io/aws-s3-explorer/"
+          "https://s3.dev.alpima.net",
+          "https://s3.dev.alpima.net/",
+          "https://melnur.github.io/aws-s3-explorer",
+          "https://melnur.github.io/aws-s3-explorer/"
         ],
         "PreventUserExistenceErrors": "ENABLED",
         "RefreshTokenValidity": 3650,
@@ -161,7 +161,7 @@
             {
               "AllowedHeaders": ["*"],
               "AllowedMethods": ["PUT", "POST", "DELETE", "HEAD", "GET"],
-              "AllowedOrigins": ["http://localhost:8080", "https://console.rhosys.ch", "https://rhosys.github.io"],
+              "AllowedOrigins": ["http://localhost:8080", "https://s3.dev.alpima.net", "https://melnur.github.io/aws-s3-explorer"],
               "ExposedHeaders": ["x-amz-request-id"],
               "MaxAge": 3600
             }

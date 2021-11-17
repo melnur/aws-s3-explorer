@@ -87,7 +87,7 @@
                             <li><strong>General settings > App clients</strong> > Add the S3 Explorer as an app</li>
                             <li><strong>Federation > Identity providers</strong> > Add your SSO provider of choice to the OAuth settings</li>
                             <li><strong>App Integration > App client settings</strong> > Enable identity provider just created</li>
-                            <li>Specify <strong>https://rhosys.github.io/aws-s3-explorer/</strong> as the callback and logout urls</li>
+                            <li>Specify <strong>https://melnur.github.io/aws-s3-explorer/</strong> as the callback and logout urls</li>
                             <li>Specify <strong>Authorization code grant</strong> flow and enable All <strong>Allowed OAuth Scopes</strong></li>
                             <li><strong>App Integration > Domain name</strong> > Configure the setup for a domain (either Cognito or your own custom one.</li>
                           </ul>
